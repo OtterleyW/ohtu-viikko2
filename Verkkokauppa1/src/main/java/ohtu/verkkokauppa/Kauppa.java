@@ -9,10 +9,10 @@ public class Kauppa {
     private String kaupanTili;
 
 
-    public Kauppa(Varasto instance, Pankki instance0, Viitegeneraattori instance1) {
-        this.varasto = instance;
-        this.pankki = instance0;
-        this.viitegeneraattori = instance1;
+    public Kauppa(Varasto varasto, Pankki pankki, Viitegeneraattori viitegen) {
+        this.varasto = varasto;
+        this.pankki = pankki;
+        this.viitegeneraattori = viitegen;
     }
 
     public void aloitaAsiointi() {
